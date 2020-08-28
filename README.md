@@ -93,6 +93,13 @@ Run tests with `tox`. Make sure that you have installed it.
 tox
 ```
 
+To run without docker:
+
+```bash
+cd faust-project
+SIMPLE_SETTINGS=settings python -m example worker -l info
+```
+
 ## Achievements
 
 * [x] Application examples
